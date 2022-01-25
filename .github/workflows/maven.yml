@@ -19,8 +19,4 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-<<<<<<< HEAD
       run: mvn -B -e verify
-=======
-      run: mvn -B package -e verify
->>>>>>> b29217bb8cb7d6483e768d02662272903df8b717
